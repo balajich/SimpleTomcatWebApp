@@ -1,0 +1,25 @@
+---
+# Engines have several properties (see
+# http://cawiki.ca.com/display/Platform/Platform+Programming+Model):
+
+#engine name that will show up in the gear url
+name: PetStore
+
+#engine version
+version: 2.0.0.40
+
+#Display name for your engine
+display_name: "Platform Petstore app"
+
+#What engine/container you want to use to deploy your application?
+#spring, jetty etc.
+packaging: tomcat7
+
+#Do you need telemetry/pop?
+#uses_pop_services: false   # default false
+
+# OpenShift controls
+ose_scalable: false
+
+# High Availability Configuration
+ose_ha: false
